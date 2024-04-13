@@ -1,0 +1,174 @@
+/* Header Avatar Part */
+.avatar.bg-primary {
+    background: #091E71 !important;
+}
+.dropdown-item.active, .dropdown-item:active,.dropdown-item:hover, .dropdown-item:focus
+{
+    color: #091E71;
+}
+.hor-menu .horizontalMenu>.horizontalMenu-list>li>a.active
+{
+    color: #091E71;
+    border-top:2px solid #091E71;
+}
+.hor-menu .horizontalMenu>.horizontalMenu-list>li>a:hover,.horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>a:hover
+{
+    color: #064d9e;
+}
+.hor-menu .horizontalMenu>.horizontalMenu-list>li>a:hover::before
+{
+    border-top: 2px solid #091E71;
+}
+.hor-menu .horizontalMenu>.horizontalMenu-list>li>a.active:hover::before
+{
+    border-top:none;
+}
+.horizontalMenu-list .dropdown-menu > li > a
+{
+    color: #25252a;
+}
+/* . Page Title */
+.page-header h1.page-title{
+    color: #091E71 !important;
+}
+
+/* tabs design */
+.codibu_tabs .tab-content.box
+{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+#step-1 .nav-tabs li
+{
+  margin:0px!important;
+}
+#step-1 .nav-tabs li a
+{
+  position:relative;
+  margin-right:0px!important;
+  padding: 20px 40px!important;
+  font-size:16px;
+  border:none!important;
+  color:#091E71;
+}
+#step-1 .nav-tabs a:hover
+{
+  background-color:#fff!important;
+  border:none;
+}
+#step-1 .slider
+{
+  display:inline-block;
+  width:30px;
+  height:4px;
+  border-radius:3px;
+  background-color:#091E71;
+  position:absolute;
+  z-index:1200;
+  bottom:0;
+  transition:all .4s linear;
+  
+}
+#step-1 .nav-tabs .active
+{
+  background-color:#f7fbff !important;
+  border:none!important;
+  color: #091e75!important;
+  font-weight: bold;
+
+} 
+#step-1 .nav
+{
+    padding: 8px 0px;
+    margin-bottom: 25px;
+}
+/* Pricing Card */
+.tab-content i
+{
+    color: #064d9e;
+}
+.row .pricing-table
+	{
+		background: linear-gradient(to right bottom,#f7fbff,white,#f7fbff) !important;
+		box-shadow: 0px 1px 7px rgba(0,0,0,0.3) !important;
+	}
+.card .pricing-table
+{
+    border-radius: 15px !important;
+}
+.pricing-table {
+
+    padding    : 20px !important;
+
+}
+.pricing-table .h1
+{
+    font-size: 1.3rem !important;
+}
+.pricing-table .h2
+{
+    font-size: 3.5rem !important;
+    color: #092678;
+}
+.pricing-table .duration
+{
+    font-size: .9rem !important;
+    color: #696774;
+    font-weight: 600;
+}
+.pricing-table li
+{
+    font-size: 14px !important;
+    line-height: 17px !important;
+}
+.pricing-table .list-unstyled li
+{
+    border-bottom: none !important;
+}
+/* Card Design */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Button Design  */
+.codibu_gradient_btn
+{
+    background: #091E71 !important;
+    background: linear-gradient(to right, #047ac8, #091E71) !important;
+    border:  none !important;
+}
+.hover-animation {
+    position: relative;
+    z-index: 1;
+}
+
+.hover-animation:hover:after {
+    width: 100%;
+}
+
+.hover-animation:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 0;
+    background: #d9b2ff40;
+    opacity: 0.5;
+    transition: all 0.5s;
+    border-radius: 6px;
+}
+.hover-animation-pill::after{
+    border-radius: 15px !important;
+}
