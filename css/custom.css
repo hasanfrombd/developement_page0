@@ -479,6 +479,23 @@
     text-shadow: 0 0 30px white;
 }
 
+
+/* body starts */
+
+.nectar-highlighted-text em,
+.nectar-highlighted-text h1,
+.nectar-split-heading h2,
+.nectar-responsive-text h3,
+.animated .content h4,
+.wpb_wrapper h2,
+.wpb_wrapper h3,
+.wpb_wrapper h4,
+.nectar-responsive-text p {
+    color: #000 !important;
+}
+
+/* body ends */
+
 /*Footer Starts*/
 
 
