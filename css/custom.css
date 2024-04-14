@@ -493,7 +493,9 @@
 .nectar-responsive-text p {
     color: #000 !important;
 }
-
+.cms h2, .blog p{
+    color: #fff !important;
+}
 /* body ends */
 
 /*Footer Starts*/
